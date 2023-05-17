@@ -1,3 +1,6 @@
+//api file
+
+
 import axios from 'axios';
 
 const searchImages = async (term) => {
