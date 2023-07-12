@@ -1,5 +1,4 @@
-
-import './SearchBar.css'
+import "./SearchBar.css";
 import React from "react";
 import { useState } from "react";
 export default function SearchBar({ onSubmit }) {
@@ -16,8 +15,13 @@ export default function SearchBar({ onSubmit }) {
   return (
     <div className="search-bar">
       <form action="" onSubmit={handleFormSubmit}>
-        <label htmlFor="">Enter which image you need:-  </label>
-        <input className="input" type="text" value={term} onChange={handleChange} />
+        <label htmlFor="">Enter which image you need:- </label>
+        <input
+          className="input"
+          type="text"
+          value={term}
+          onChange={handleChange}
+        />
       </form>
     </div>
   );
